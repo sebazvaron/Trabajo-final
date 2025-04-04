@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro - Barbería a Domicilio</title>
+    <link rel="stylesheet" href="style/formulario.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h2>Registro de Cliente</h2>
+        <form action="registro.php" method="POST">
+            <input type="text" name="nombre" placeholder="Nombre completo" required>
+            <input type="email" name="email" placeholder="Correo electrónico" required>
+            <input type="tel" name="telefono" placeholder="Número de teléfono" required>
+            <input type="text" name="direccion" placeholder="Dirección" required>
+            <select name="tipo-documento">
+                <option value="tipo-document">Tipo de documento</option>
+                <option value="tarjeta-identidad">tarjeta de Identidad</option>
+                <option value="cedula-ciudadania">Cedula de Ciudadania</option>
+                <option value="permiso-por-proteccion-temporal">PPT</option>
+            </select>
+            <input type="int" name="numero-cc" placeholder="Numero de cedula" required>
+            
+            <label>
+                <input type="checkbox" name="promociones"> Quiero recibir promociones y descuentos
+            </label>
+            <button type="submit">Registrarse</button>
+        </form>
+    </div>
+</body>
+</html>
