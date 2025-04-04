@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Barbería a Domicilio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/main.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style/calendar.css">
+</head>
+<body>
+  <header>
+    <h1>Barbería Elite a Domicilio</h1>
+  </header>
+
+  <div class="container">
+    <h2>Agenda tu Cita</h2>
+    <form id="form-cita">
+      <label for="name">Nombre completo:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="phone">Teléfono:</label>
+      <input type="tel" id="phone" name="phone" required />
+
+      <label for="service">Servicio:</label>
+      <select id="service" name="service">
+        <option value="corte">Corte de cabello</option>
+        <option value="barba">Afeitado o diseño de barba</option>
+        <option value="combo">Corte + Barba</option>
+      </select>
+
+      <label for="date">Fecha:</label>
+      <input type="date" id="date" name="date" required />
+
+      <label for="time">Hora:</label>
+      <input type="time" id="time" name="time" required />
+
+      <label for="address">Dirección a domicilio:</label>
+      <textarea id="address" name="address" rows="3" required></textarea>
+
+      <button type="submit">Reservar Cita</button>
+    </form>
+  </div>
+
+  <div id="calendar"></div>
+  <button >
+    <a href="index.html"></a>
+    volver</button>
+
+  <footer>
+    &copy; 2025 Barbería Elite - Servicio Profesional a Domicilio
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.js"></script>
+  <script src="js/calendar.js"></script>
+</body>
+</html>

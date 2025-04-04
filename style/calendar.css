@@ -1,0 +1,82 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to right, #ffffff, #e6e6e6);
+    margin: 0;
+    padding: 0;
+    color: #222;
+  }
+
+  header {
+    background-color: #002f6c;
+    color: white;
+    padding: 1rem 2rem;
+    text-align: center;
+  }
+
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+
+  .container {
+    max-width: 600px;
+    margin: 2rem auto;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+
+  h2 {
+    color: #c8102e;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  form label {
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
+  }
+
+  form input, form select, form textarea {
+    width: 100%;
+    padding: 0.7rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+
+  form button {
+    background-color: #c8102e;
+    color: white;
+    border: none;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-top: 1.5rem;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1.1rem;
+    transition: background 0.3s ease;
+  }
+
+  form button:hover {
+    background-color: #a30f25;
+  }
+
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #002f6c;
+    color: white;
+    margin-top: 2rem;
+  }
+
+  #calendar {
+    margin: 2rem auto;
+    max-width: 900px;
+    background: white;
+    padding: 1rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
